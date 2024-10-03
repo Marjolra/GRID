@@ -1,0 +1,150 @@
+body {
+  display: flex;
+max-width: 1920px;
+padding-bottom: 100px;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+background: var(--Main-White, #FFF);
+}
+.meniu {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+justify-content: space-between;
+}
+li {list-style: none;
+  color: var(--Main-Paragraph, #4E4B66);
+text-align: center;
+/* Body/Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.logo {
+  display: flex;
+align-items: center;
+gap: 8px;
+margin-right: 80px;
+}
+header {
+display: flex;
+padding: 32px 320px;
+justify-content: space-between;
+align-items: center;
+border-bottom: 60px;
+}
+.button {
+  /* display: flex;
+padding: 32px 320px;
+justify-content: end;
+align-items: center; */
+display: flex;
+height: 56px;
+padding: 16px 48px;
+justify-content: end;
+align-items: center;
+gap: 10px;
+border-radius: 24px;
+border: 1px solid var(--Hero-Primary, #F15A24);
+margin-left: 60px;
+}
+.picture {
+  width: 1280px;
+height: 510px;
+border-radius: 40px;
+margin-bottom: 20px;
+}
+h1 {
+  width: 630px;
+  height: 146;
+  color: var(--Main-Dark, #1A1A1A);
+/* Desktop/H1 */
+font-family: Roboto;
+font-size: 61px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 73.2px */
+}
+.Hero {
+  /* display: flex;
+flex-direction: column;
+height: 1280px;
+width: 708; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.divh2 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.readmore {
+  max: height 56px;
+  color: white;
+  display: flex;
+height: 56px;
+padding: 16px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--Hero-Primary, #F15A24);
+}
+.cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.card1 {
+  display: flex;
+width: 305px;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+border-radius: 20px;
+background: var(--Main-White-Stitch, #F7F7F7);
+}
+.card2 {
+  display: flex;
+width: 305px;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+border-radius: 20px;
+background: var(--Main-White-Stitch, #F7F7F7);
+}
+.card3 {
+  display: flex;
+width: 305px;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+border-radius: 20px;
+background: var(--Main-White-Stitch, #F7F7F7);
+}
+.card4 {
+  display: flex;
+width: 305px;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+border-radius: 20px;
+background: var(--Main-White-Stitch, #F7F7F7);
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+align-items: center;
+gap: 20px;
+}
